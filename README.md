@@ -1,21 +1,8 @@
-# ReportsGenerator
+## ReportsGenerator
 
-**TODO: Add description**
+Declara um módulo ReportsGenerator com uma única função pública, generate/1, que recebe o caminho para um arquivo csv onde cada linha possui o seguinte formato: `<pessoa>,<horas>,<dia>,<mês>,<ano>` e devolve um map com dados referentes às horas trabalhadas no total, por mês e por ano.
 
-## Installation
+## Como executar
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `reports_generator` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:reports_generator, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/reports_generator](https://hexdocs.pm/reports_generator).
+Após clonar o projeto, entre na pasta do projeto e execute `iex -S mix`, após isso dê o comando: `ReportsGenerator.generate()`.
 
